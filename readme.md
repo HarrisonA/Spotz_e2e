@@ -2,5 +2,11 @@ This is a brand new rewrite of the integration tests for the Spotz app.  Work in
 
 Requirements: Install Protractor
 
-To run: cd into the repo and type "protractor conf.js" on the command line
+
+To run:
+(from the command line)
+
+1. cd into the repo and type "webdriver-manager start" start the Selenium server
+
+2. type "protractor conf.js" to run the test.
 
